@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+    background-color: #e4f2fd;
+    border: none;
+    outline: none;
+}
+.heroContainer{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 200px;
+    gap: 3rem;
+}
+img{
+    width: 30px;
+    border-radius: 50px;
+}
+.dropdown .droplist{
+    top:30px;
+    padding-top: 15px;
+    flex-direction: column;
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+}
+.dropdown .droplist li ,.droplist a{
+    background-color: #fff;
+    width: 248px;
+    padding:  0 10px;
+}
+.dropdown .droplist li {
+    align-items: center;
+}
+.dropdown a{
+    padding: 15px ;
+    color: black;
+    /* font-weight: bold; */
+    background-color: #fff;
+}
+.dropdown i{
+    background-color: #fff;
+    margin-left: 110px;
+}
+.dropdown:hover .droplist{
+    opacity: 1;
+    visibility: visible;
+}
+.droplist li:hover ,.droplist a:hover{
+    background-color: rgb(172, 172, 172);
+}
+.droplist li{
+    display: flex;
+}
+.dropdown{
+    position: relative;
+    margin-bottom: 15rem;
+}
+.content h1 span{
+    color: red;
+}
+.content h1{
+    color: blue;
+
+}
+.content{
+    /* margin-top: 50px; */
+    line-height: 2;
+}
